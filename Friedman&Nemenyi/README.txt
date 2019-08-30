@@ -1,0 +1,4 @@
+Data1~Data10是十个回归数据集
+load_data.py用于读取这十个数据并用留一法将其划分为7:3的训练集和测试集
+regression.py用于使用sklearn调用不同回归算法对数据集进行训练
+evaluation.py用于进行Friedman和Nemenyi检验
